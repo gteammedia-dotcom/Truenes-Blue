@@ -3,7 +3,6 @@ import { Shield, Menu, X, ChevronRight, Mail, Phone, MapPin } from 'lucide-react
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { cn } from '../lib/utils';
-import { Chatbot } from './Chatbot';
 
 export function Layout() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -184,9 +183,6 @@ export function Layout() {
           </div>
         </div>
       </footer>
-
-      {/* Chatbot */}
-      <Chatbot />
     </div>
   );
 }
